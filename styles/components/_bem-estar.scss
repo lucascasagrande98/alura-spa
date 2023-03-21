@@ -1,0 +1,31 @@
+@import "../abstract/variaveis";
+
+#bem-estar {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 160px 0;
+
+  .conteudo {
+    text-align: center;
+
+    h3 {
+      color: $cor-primaria;
+      font-size: $tamanho-do-texto / 1.2;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    h4 {
+      color: $cor-primaria;
+      font-size: $tamanho-do-texto / 1.6;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: $cor-secundaria;
+      font-size: $tamanho-do-texto / 2.4;
+    }
+  }
+}
